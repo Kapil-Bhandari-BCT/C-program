@@ -1,0 +1,23 @@
+// C program to calculate the surface Area and volume of Sphere
+
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    float radius;
+
+    float volume;
+    float area;
+
+    printf("Enter the radius: ");
+    scanf("%f", &radius);
+
+    volume = (4.0 / 3) * (3.14) * pow(radius, 3);
+    area = 4 * (3.14) * pow(radius, 2);
+
+    printf("Volume of Sphere 	  : %f\n", volume);
+    printf("Surface area of Sphere: %f\n", area);
+
+    return 0;
+}
